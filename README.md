@@ -14,7 +14,7 @@ With RunVisualizer athletes will be able to:
 
 ## Wireframes
 
-
+![RunVisualizer_wireframe - 188 x 273](https://user-images.githubusercontent.com/34895686/71630376-77f86b00-2bb7-11ea-9685-88e932668f36.png)
 
 ## Architecture and Technologies
 
