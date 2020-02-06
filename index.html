@@ -6,20 +6,32 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <script src="https://d3js.org/d3.v4.js"></script>
     <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="./stylesheets/reset.css">
-    <link rel="stylesheet" type="text/css" href="./stylesheets/index.css">
-    
-    <title>RunVisualizer</title>  
+    <link rel="stylesheet" type="text/css" href="./stylesheets/reset.css" />
+    <link rel="stylesheet" type="text/css" href="./stylesheets/index.css" />
+
+    <title>RunVisualizer</title>
   </head>
   <body>
     <nav>
       <h2>RunVisualizer</h2>
     </nav>
-
-
-<!-- Create a div where the graph will take place -->
-<div id="my_dataviz"></div>
+    <div class="hr-calc">
+      <form>
+        <label>
+          Please enter max HR
+          <input type="number" name="max-hr" />
+          <button>Calculate</button>
+        </label>
+      </form>
+      <div class="hr-results">
+        <section class="hr-zone"></section>
+        <section class="hr-zone"></section>
+        <section class="hr-zone"></section>
+        <section class="hr-zone"></section>
+        <section class="hr-zone"></section>
+      </div>
+    </div>
+    <div id="my_dataviz"></div>
     <script type="text/javascript" src="./charts/stackedAreaChart.js"></script>
   </body>
 </html>
-

@@ -148,6 +148,58 @@ h3{
 nav{
   height: 60px;
   width: 100%;
-  box-shadow: 1px 1px 1px 0px rgba(37,41,51,1);;
+  box-shadow: 1px 1px 1px 0px rgba(37,41,51,1);
+  padding: 0 5vw;
   display: flex;
+}
+
+#my_dataviz{
+  margin: 0 auto;
+}
+
+.hr-calc{
+  width: 300px;
+  height: 400px;
+  border: 3px solid #7dc7f4;
+  border-radius: 3px;
+  margin: 5px;
+
+}
+
+.hr-calc label{
+  display: flex;
+  flex-direction: column;
+  color: white;
+  align-items: center;
+}
+
+.hr-calc input{
+  width: 50px;
+  padding: 10px;
+  border-radius: 3px;
+  background-color: rgb(252, 141, 98);
+  font-size: 18px;
+  ;
+}
+
+.hr-calc button {
+  width: 100px;
+  height: 30px;
+  color:  rgb(252, 141, 98);
+  font-size: 20px;
+  font-weight: 600;
+  padding: 5px;
+  background-color: #7dc7f4;
+  border-radius: 3px;
+  text-align: center;
+}
+
+button:hover{
+  cursor: pointer;
+}
+
+.hr-zone{
+  border-bottom: 3px solid #7dc7f4;
+  height: 50px;
+  width: 100%;
 }

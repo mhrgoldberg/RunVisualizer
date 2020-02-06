@@ -70,19 +70,22 @@ d3.xml("./data1.xml", function(error, data) {
     .attr("opacity", ".6")
     .attr("stroke-dasharray", "4");
 
+
+  // axis lables
+
   // Add X axis label:
-  // svg.append("text")
-  //     .attr("text-anchor", "end")
-  //     .attr("x", width)
-  //     .attr("y", height+40 )
-  //     .text("Time");
+  svg.append("text")
+      .attr("text-anchor", "end")
+      .attr("x", width)
+      .attr("y", height+40 )
+      .text("Time");
 
   svg
     .append("text")
     .attr("text-anchor", "end")
     .attr("x", 0)
     .attr("y", -20)
-    // .text("Elevation")
+    .text("Elevation")
     .attr("text-anchor", "start");
 
 
