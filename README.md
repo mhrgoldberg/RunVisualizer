@@ -1,5 +1,5 @@
 # RunVisualizer
- 
+[Live link](https://mitchellreiss.github.io/RunVisualizer/)
 ## Background
 
 RunVisualizer is a data visualization tool to help runners visualize their data post-workout. RunVisualizer is designed to prioritize athletes time displaying all the pertinent information on a single page app.
