@@ -78,7 +78,9 @@ d3.xml("./data1.xml", function(error, data) {
       .attr("text-anchor", "end")
       .attr("x", width)
       .attr("y", height+40 )
-      .text("Time");
+      .text("Time")
+      .style("color", "white")
+      ;
 
   svg
     .append("text")

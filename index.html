@@ -15,23 +15,28 @@
     <nav>
       <h2>RunVisualizer</h2>
     </nav>
-    <div class="hr-calc">
-      <form>
-        <label>
-          Please enter max HR
-          <input type="number" name="max-hr" />
-          <button>Calculate</button>
-        </label>
-      </form>
-      <div class="hr-results">
-        <section class="hr-zone"></section>
-        <section class="hr-zone"></section>
-        <section class="hr-zone"></section>
-        <section class="hr-zone"></section>
-        <section class="hr-zone"></section>
+    <div class="main-container">
+      <div class="hr-calc">
+        <form class="hr-form" onsubmit="calcHRZones(); return false">
+          <label>
+            Please enter your max heart rate.
+            <div class="hr-inputs">
+              <input type="number" name="max-hr" />
+              <button>Calculate</button>
+            </div>
+          </label>
+        </form>
+        <div class="hr-results">
+          <section class="hr-zone" id="z1"></section>
+          <section class="hr-zone" id="z2"></section>
+          <section class="hr-zone" id="z3"></section>
+          <section class="hr-zone" id="z4"></section>
+          <section class="hr-zone" id="z5"></section>
+        </div>
       </div>
+      <div id="my_dataviz"></div>
     </div>
-    <div id="my_dataviz"></div>
     <script type="text/javascript" src="./charts/stackedAreaChart.js"></script>
+    <script type="text/javascript" src="./hr/hrCalc.js"></script>
   </body>
 </html>
